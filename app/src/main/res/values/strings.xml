@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pro-Management</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="main_title">My Day</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="projectName">projectName</string>
+    <string name="projectDeadline">projectDeadline</string>
+    <string name="teamMembers">teamMembers</string>
+    <string name="projectManager">projectManager</string>
+    <string name="taskName">taskName</string>
+    <string name="taskDeadline">taskDeadline</string>
+    <string name="taskMember">taskMember</string>
+    <string name="taskStatus">taskStatus</string>
+    <string name="projectStatus">projectStatus</string>
+    <string name="projectList">Projects</string>
+    <string name="Account">Account</string>
+    <string name="Deadline">Deadline: </string>
+    <string name="ProjectStatus">Project Status: </string>
+    <string name="TeamMembers">Team Members: </string>
+    <string name="TaskMember">Task Member: </string>
+
+</resources>

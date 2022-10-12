@@ -1,0 +1,16 @@
+# ==========================
+# = App Config
+# ==========================
+
+# Please include Server and other configuration info here
+
+# workmode
+# demo: run with local test and demo data without network communication
+# standard: run with full functionality and all the support modes
+runmode = standard
+# runmode = demo
+
+# remote server
+remote_server = 35.246.127.252
+port = 5000
+

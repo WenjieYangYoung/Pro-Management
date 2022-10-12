@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:paddingTop="5dp"
+    android:background="@color/bg_light_grey"
+    tools:visibility="visible">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_user"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:paddingTop="5dp"
+        app:cardCornerRadius="5dp"
+        android:background="@color/material_dynamic_neutral80" >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/img_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.30"
+                app:srcCompat="@drawable/user_male"
+                tools:srcCompat="@drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/txt_frag_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:isScrollContainer="false"
+                android:text="UserName"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_user"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/txt_frag_user_email"
+                android:layout_width="264dp"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:gravity="clip_horizontal|center|top"
+                android:inputType="textPersonName"
+                android:text="example@email.com"
+                android:textColor="@color/material_dynamic_neutral40"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_frag_user_name"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/txt_frag_user_role"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:text="(Team Member)"
+                android:textColor="@color/main_page_ui"
+                android:textSize="14sp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_frag_user_email"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_log_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/white"
+        android:text="Sign Out"
+        android:textColor="@android:color/holo_red_dark" />
+</LinearLayout>

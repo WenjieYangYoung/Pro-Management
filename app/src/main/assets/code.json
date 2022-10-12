@@ -1,0 +1,14 @@
+{
+  "code": {
+    "request": {
+      "login activity": 200,
+      "apply activity": 202,
+      "task activity": 500
+    },
+    "result": {
+      "login activity": 201,
+      "apply activity": 203,
+      "task activity": 501
+    }
+  }
+}
